@@ -1,3 +1,53 @@
 html{
-  background-color: yellow
+  background-color: white;
+}
+header{
+  padding: 1em 1em 2em 1em;
+  background: #f9dd3f;
+  margin: -1em;
+  border: 2em;
+}
+h1{
+  font-family: 'Sigmar One', cursive;
+  font-size: 4.5em;
+  color:#ab2c09;
+  line-height:.8;
+  text-align: center;
+}
+nav ol{
+  list-style:none;
+  padding: 1em;
+  margin: 0em;
+}
+cite{
+  color: #c8b72e;
+}
+blockquote{
+  font-style: italic;
+  color: #c8b72e;
+  text-align: center;
+
+}
+p{
+  font-size:1em;
+}
+h2{
+  border-top: solid #f9d164; 0.5em;
+  margin: 0em;
+  font-family:'Sigmar One', cursive;
+  color: #ab2c09;
+}
+figure{
+  background-color: #eef1c6;
+  border-radius:8em solid #eef1c6;
+  border: 0.5em 2em 2em 2em ;
+  padding: 1em;
+  width: 30em;
+
+}
+dt{
+  font-weight:bold;
+}
+footer{
+  text-align: center;
 }
