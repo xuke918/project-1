@@ -2,52 +2,103 @@ html{
   background-color: white;
 }
 header{
-  padding: 1em 1em 2em 1em;
+  padding: 2em 0em 0em 0em;
   background: #f9dd3f;
   margin: -1em;
   border: 2em;
 }
 h1{
   font-family: 'Sigmar One', cursive;
-  font-size: 4.5em;
-  color:#ab2c09;
-  line-height:.8;
+  font-size: 4em;
+  color: #ab2c09;
+  line-height: .8;
   text-align: center;
+
+ }
+ nav ol{
+   list-style:none;
+   padding: 1em;
+   margin: 0em;
+
 }
-nav ol{
-  list-style:none;
-  padding: 1em;
-  margin: 0em;
+nav li{
+  background-color: #b2a215;
+  display: inline-block;
+  padding:10px;
+  border-radius: .5em;
+
 }
-cite{
-  color: #c8b72e;
+nav a{
+
+  color:white;
+  text-decoration: none;
+}
+
+a hover{
+  color: #c93763;
 }
 blockquote{
   font-style: italic;
   color: #c8b72e;
   text-align: center;
+  padding: 3em;
 
+}
+cite{
+  color: #c8b72e;
 }
 p{
   font-size:1em;
+  margin: 1em 0em 1em 0em;
 }
 h2{
   border-top: solid #f9d164; 0.5em;
   margin: 0em;
   font-family:'Sigmar One', cursive;
   color: #ab2c09;
+  padding: 0.5em 0em 0.5em 0em;
 }
 figure{
   background-color: #eef1c6;
-  border-radius:8em solid #eef1c6;
-  border: 0.5em 2em 2em 2em ;
+  border: 0.3em solid #c8b72e ;
   padding: 1em;
-  width: 30em;
+  width: 40em;
+  margin:0em;
+  border-radius: 2em;
+}
 
+figcaption{
+  font-style: italic;
+  text-align:center;
 }
 dt{
   font-weight:bold;
+  font-style: noraml;
 }
+
 footer{
+  background-color: #f9dd3f;
   text-align: center;
+  padding: 1em 2em 2em 2em;
+  margin: -1em;
+}
+nav{
+  text-align:center;
+}
+h3{
+  font-family: 'Sigmar One', cursive;
+  color: #ab2c09;
+  margin: 1em 0em 1em 0em;
+}
+.per{
+  font-style: italic;
+}
+img{
+  width:100%;
+}
+dd{
+  margin: 0em;
+}
+.number{
+  font-style: italic;
 }
